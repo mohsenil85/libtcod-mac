@@ -21,6 +21,8 @@ You can either build SDL1 with `make -f makefiles/makefile-osx
 release` or SDL2 with `make -f makefiles/makefile-osx-sdl2 release`
 (of course you can specify `debug` versions instead).
 
+Add the dylibs to the linker path by using `export DYLD_LIBRARY_PATH=/path/to/repo/`.  
+
 For the samples, simply do `make -f makefiles/makefile-samples-linux
 release` or `make -f makefiles/makefile-samples-linux-sdl2 release`.
 You will now have several example executables, which you can run as
